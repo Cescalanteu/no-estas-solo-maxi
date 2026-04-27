@@ -1,0 +1,23 @@
+{
+  "name": "no-estas-solo-maxi-pwa",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "node scripts/clean-dist.mjs && tsc -p tsconfig.json && esbuild src/main.tsx --bundle --format=esm --outdir=dist/assets --loader:.svg=file --asset-names=[name]-[hash] --entry-names=main-[hash] --public-path=./assets --define:process.env.NODE_ENV=\\\"production\\\" --minify && node scripts/prepare-dist.mjs",
+    "build:vite": "tsc -p tsconfig.json && vite build",
+    "preview": "node scripts/serve-dist.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^5.2.0",
+    "typescript": "^6.0.3",
+    "vite": "^6.4.2"
+  }
+}

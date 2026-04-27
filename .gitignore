@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.npm-cache/
+.edge-profile/
+_gitdata/
+
+*.log
+*.local
+
+.DS_Store
+Thumbs.db
