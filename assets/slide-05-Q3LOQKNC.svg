@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">El niño nuevo</title>
+  <desc id="desc">Maxi entra al patio del colegio verde sosteniendo la tira de su mochila mientras otros niños lo observan.</desc>
+  <style>
+    :root {
+      --elisa-hair: #d8732f;
+      --elisa-clip: #79bcea;
+      --elisa-shirt: #ffffff;
+      --elisa-skirt: #20345f;
+      --elisa-backpack: #c84d4d;
+      --maxi-hair: #3a2418;
+      --maxi-sweatshirt: #f2c94c;
+      --maxi-jacket: #20345f;
+      --maxi-pants: #cdbb9d;
+      --maxi-shoes: #2f80ed;
+      --maxi-backpack: #4f9d69;
+      --school-green: #b8d8a8;
+      --skin-elisa: #f0b88d;
+      --skin-maxi: #c99268;
+      --navy: #20345f;
+      --cream: #fbf3df;
+      --sky: #dff3f5;
+      --ground: #dcefd7;
+      --line: #31443d;
+    }
+    .soft-line { stroke: var(--line); stroke-width: 4; stroke-linecap: round; fill: none; }
+    .thin-line { stroke: var(--line); stroke-width: 2.5; stroke-linecap: round; fill: none; opacity: .8; }
+    .distant { opacity: .72; }
+    .muted { opacity: .55; }
+  </style>
+
+  
+  <rect width="800" height="600" fill="var(--cream)"/>
+  <rect y="0" width="800" height="250" fill="var(--sky)" opacity=".7"/>
+  <path d="M0 398 C135 376 251 410 382 390 C534 366 650 392 800 372 L800 600 L0 600 Z" fill="var(--ground)"/>
+  <rect x="104" y="126" width="592" height="252" rx="12" fill="var(--school-green)"/>
+  <path d="M82 128 L400 58 L718 128 Z" fill="#7fb98d"/>
+  <rect x="140" y="166" width="88" height="76" rx="8" fill="#fdf8ea"/>
+  <rect x="274" y="166" width="88" height="76" rx="8" fill="#fdf8ea"/>
+  <rect x="438" y="166" width="88" height="76" rx="8" fill="#fdf8ea"/>
+  <rect x="572" y="166" width="88" height="76" rx="8" fill="#fdf8ea"/>
+  <path d="M156 204h56M290 204h56M454 204h56M588 204h56" stroke="#b9d8d7" stroke-width="7" stroke-linecap="round"/>
+  <rect x="357" y="276" width="86" height="102" rx="10" fill="#43775d"/>
+  <circle cx="428" cy="326" r="4" fill="#f7e7b7"/>
+  <path d="M330 382 C354 350 446 350 470 382" class="thin-line" opacity=".35"/>
+  
+  <rect x="120" y="272" width="48" height="42" rx="6" fill="#f5d17a"/>
+  <rect x="626" y="274" width="50" height="44" rx="6" fill="#f3a89b"/>
+  <circle cx="188" cy="303" r="13" fill="#8ac6c2"/>
+  <circle cx="610" cy="306" r="12" fill="#f7d98a"/>
+  
+  
+  
+
+  <ellipse cx="400" cy="462" rx="122" ry="39" fill="#ffffff" opacity=".2"/>
+  <ellipse cx="172" cy="491" rx="25.919999999999998" ry="5.3999999999999995" fill="#7d917d" opacity=".2"/>
+  <g class="elisa" transform="translate(172 488) scale(0.72 0.72)">
+    <ellipse cx="-34" cy="-78" rx="19" ry="46" fill="var(--elisa-backpack)"/>
+    <path d="M-18 -38 v28" stroke="var(--skin-elisa)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M18 -38 v28" stroke="var(--skin-elisa)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M-26 -3 h18" stroke="#171b1b" stroke-width="9" stroke-linecap="round"/>
+    <path d="M10 -3 h18" stroke="#171b1b" stroke-width="9" stroke-linecap="round"/>
+    <path d="M-36 -84 L36 -84 L47 -36 L-47 -36 Z" fill="var(--elisa-skirt)"/>
+    <rect x="-31" y="-126" width="62" height="49" rx="15" fill="var(--elisa-shirt)"/>
+    <path d="M-12 -126 L0 -112 L12 -126" fill="#edf3f6"/>
+    <path d="M-35 -119 C-52 -101 -52 -73 -39 -53" stroke="var(--skin-elisa)" stroke-width="13" stroke-linecap="round" fill="none"/>
+    <path d="M35 -119 C52 -101 52 -73 39 -53" stroke="var(--skin-elisa)" stroke-width="13" stroke-linecap="round" fill="none"/>
+    <circle cx="0" cy="-153" r="31" fill="var(--skin-elisa)"/>
+    <path d="M-34 -160 C-32 -198 30 -202 36 -162 C26 -175 -18 -176 -34 -160 Z" fill="var(--elisa-hair)"/>
+    <path d="M-28 -173 C-50 -159 -44 -119 -21 -117 C-32 -132 -34 -151 -28 -173 Z" fill="var(--elisa-hair)"/>
+    <path d="M27 -174 C51 -158 42 -119 18 -118 C31 -135 34 -153 27 -174 Z" fill="var(--elisa-hair)"/>
+    <path d="M-8 -185 C13 -201 37 -190 38 -169 C25 -183 6 -182 -8 -185 Z" fill="var(--elisa-hair)"/>
+    <ellipse cx="39" cy="-164" rx="10" ry="7" fill="var(--elisa-clip)" transform="rotate(-18 39 -164)"/>
+    <circle cx="-11" cy="-151" r="4.2" fill="#2d2a25"/>
+    <circle cx="12" cy="-151" r="4.2" fill="#2d2a25"/>
+    <path d="M-17 -145h10M8 -145h10" class="thin-line"/>
+    <circle cx="-18" cy="-139" r="1.8" fill="#bd7c64"/>
+    <circle cx="-12" cy="-136" r="1.6" fill="#bd7c64"/>
+    <circle cx="17" cy="-139" r="1.8" fill="#bd7c64"/>
+    <circle cx="11" cy="-136" r="1.6" fill="#bd7c64"/>
+    <path d="M-10 -129 Q0 -124 10 -129" class="soft-line"/>
+    <path d="M-29 -124 C-18 -116 18 -116 29 -124" stroke="#d7dde5" stroke-width="5" stroke-linecap="round" fill="none" opacity=".85"/>
+  </g>
+  <ellipse cx="585" cy="454" rx="15.079999999999998" ry="3.4799999999999995" fill="#7d917d" opacity=".2"/>
+  <g class="secondary-child distant" transform="translate(585 452) scale(0.58)">
+    <path d="M-15 -42 v33" stroke="#f0b88d" stroke-width="10" stroke-linecap="round"/>
+    <path d="M15 -42 v33" stroke="#f0b88d" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-25 -3 h17M8 -3h17" stroke="#1c2529" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-31 -86 L31 -86 L38 -43 L-38 -43 Z" fill="var(--navy)"/>
+    <rect x="-28" y="-124" width="56" height="45" rx="14" fill="#ffffff"/>
+    <path d="M-33 -117 C-48 -101 -48 -79 -36 -62M33 -117 C48 -101 48 -79 36 -62" stroke="#f0b88d" stroke-width="11" stroke-linecap="round" fill="none"/>
+    <circle cx="0" cy="-145" r="27" fill="#f0b88d"/>
+    <path d="M-25 -154 C-21 -181 24 -181 27 -154 C12 -164 -9 -164 -25 -154 Z" fill="#15191f"/><rect x="-26" y="-167" width="52" height="7" rx="4" fill="#5ba66f"/>
+    <circle cx="-10" cy="-144" r="3.5" fill="#252525"/>
+    <circle cx="10" cy="-144" r="3.5" fill="#252525"/>
+    <path d="M-7 -127 Q0 -130 7 -127" class="thin-line"/>
+  </g>
+  <ellipse cx="642" cy="456" rx="14.819999999999999" ry="3.42" fill="#7d917d" opacity=".2"/>
+  <g class="secondary-child distant" transform="translate(642 454) scale(0.57)">
+    <path d="M-15 -42 v33" stroke="#f0b88d" stroke-width="10" stroke-linecap="round"/>
+    <path d="M15 -42 v33" stroke="#f0b88d" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-25 -3 h17M8 -3h17" stroke="#1c2529" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-31 -86 L31 -86 L38 -43 L-38 -43 Z" fill="var(--navy)"/>
+    <rect x="-28" y="-124" width="56" height="45" rx="14" fill="#ffffff"/>
+    <path d="M-33 -117 C-48 -101 -48 -79 -36 -62M33 -117 C48 -101 48 -79 36 -62" stroke="#f0b88d" stroke-width="11" stroke-linecap="round" fill="none"/>
+    <circle cx="0" cy="-145" r="27" fill="#f0b88d"/>
+    <circle cx="-18" cy="-164" r="8" fill="#2f221d"/><circle cx="0" cy="-170" r="9" fill="#2f221d"/><circle cx="18" cy="-164" r="8" fill="#2f221d"/><path d="M-12 -151h9M3 -151h9M-3 -151h6" stroke="#c84d4d" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="-10" cy="-144" r="3.5" fill="#252525"/>
+    <circle cx="10" cy="-144" r="3.5" fill="#252525"/>
+    <path d="M-7 -127 Q0 -130 7 -127" class="thin-line"/>
+  </g>
+  <ellipse cx="402" cy="525" rx="47.15" ry="9.2" fill="#7d917d" opacity=".2"/>
+  <g class="maxi" transform="translate(402 522) scale(1.15 1.15)">
+    <ellipse cx="-37" cy="-80" rx="20" ry="48" fill="var(--maxi-backpack)"/>
+    <path d="M-18 -50 v40" stroke="var(--maxi-pants)" stroke-width="17" stroke-linecap="round"/>
+    <path d="M18 -50 v40" stroke="var(--maxi-pants)" stroke-width="17" stroke-linecap="round"/>
+    <path d="M-31 -3 h24" stroke="var(--maxi-shoes)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M8 -3 h24" stroke="var(--maxi-shoes)" stroke-width="10" stroke-linecap="round"/>
+    <rect x="-32" y="-124" width="64" height="72" rx="18" fill="var(--maxi-sweatshirt)"/>
+    <path d="M-39 -122 L-8 -122 L-17 -53 L-42 -54 Z" fill="var(--maxi-jacket)"/>
+    <path d="M39 -122 L8 -122 L17 -53 L42 -54 Z" fill="var(--maxi-jacket)"/>
+    <path d="M-31 -116 C-18 -101 -14 -83 -8 -67" stroke="var(--skin-maxi)" stroke-width="13" stroke-linecap="round" fill="none"/>
+       <path d="M31 -116 C18 -101 14 -83 8 -67" stroke="var(--skin-maxi)" stroke-width="13" stroke-linecap="round" fill="none"/>
+       <circle cx="-8" cy="-66" r="7" fill="var(--skin-maxi)"/>
+       <circle cx="8" cy="-66" r="7" fill="var(--skin-maxi)"/>
+       <path d="M0 -124 v65" stroke="#335846" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="0" cy="-153" r="32" fill="var(--skin-maxi)"/>
+    <path d="M-35 -160 C-31 -192 31 -193 36 -159 C24 -172 -22 -173 -35 -160 Z" fill="var(--maxi-hair)"/>
+    <path d="M-34 -159 C-28 -174 28 -176 35 -158 C22 -150 -20 -150 -34 -159 Z" fill="var(--maxi-hair)"/>
+    <path d="M2 -184 C11 -177 12 -167 2 -160" stroke="var(--maxi-hair)" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <circle cx="-12" cy="-151" r="4.4" fill="#241b18"/>
+    <circle cx="12" cy="-151" r="4.4" fill="#241b18"/>
+    <path d="M-19 -147l11 2M8 -144l11 -4" class="thin-line"/>
+    <path d="M-10 -127 Q0 -130 10 -127" class="soft-line"/>
+  </g>
+
+</svg>
